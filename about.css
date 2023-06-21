@@ -1,0 +1,138 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+}
+/* Navigation bar  */
+nav{
+    height: 12vh;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    z-index: 4;
+    top: 0;
+    margin-bottom: 30px;
+}
+.imgDivCon{
+    height: inherit;
+    margin-left: 20px;
+    border-radius: 50%;
+    /* border: 2px solid white; */
+    margin: 10px;
+    padding: 20px;
+}
+.imgDivCon img{
+    height: 150%;
+    /* width: 200%; */
+    /* width: 150%; */
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+nav button{
+    margin-right: 20px;
+    height: 2.6rem;
+    width: 20rem;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.homeText{
+    margin-left: 320px;
+}
+nav button:active{
+    transform: scale(0.98);
+}
+/* Main div  */
+.outerDiv{
+    height: 80vh;
+    width: 100vw;
+}
+.innerDiv{
+    height: 80vh;
+    width: 80vw;
+    margin: 150px auto;
+    display: flex;
+    background-color: white;
+}
+.imgDiv{
+    height: inherit;
+    display: inline-block;
+    width: 40%;
+}
+.imgDiv img{
+    height: 100%;
+    width: 100%;
+}
+.info{
+    height: inherit;
+    display: inline-block;
+    width: 60%;
+    position: relative;
+}
+#heading{
+    text-align: center;
+    font-size: 2.4rem;
+    color: #5f3dc4;
+}
+.desc{
+    font-size: 1.2rem;
+    padding: 0px 15px;
+    color: #0b7285;
+    margin-bottom: 0px;
+}
+.modified{
+    padding: 5px 15px;
+    text-align: right;
+}
+.achivements{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.achivements li{
+    list-style: none;
+    font-size: 1.6rem;
+    padding: 10px 0px;
+    width: 10rem;
+    background-color: #099268;
+    padding: 10px;
+    color:  white;
+}
+.urls{
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0px;
+}
+.urls li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+.urls li button{
+    height: 2.4rem;
+    width: 8rem;
+    margin-bottom: 20px;
+    background-color: #d9480f;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+.urls li a{
+    text-decoration: none;
+    color: white;
+}
+.urls li a span{
+    margin-left: 6px;
+}
